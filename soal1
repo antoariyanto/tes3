@@ -1,0 +1,14 @@
+<?php //php 7.2.24
+
+
+$a = "merah";
+$b = "pisang";
+
+$a ^= $b;
+$b ^= $a;
+$a ^= $b;
+ 
+echo $a . "<br/>";
+echo $b;
+?>
+    
